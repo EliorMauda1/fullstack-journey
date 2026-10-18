@@ -1,3 +1,7 @@
-const message = "I am learning Git and JavaScript!";
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+const message = greet("Developer");
 
 console.log(message);
